@@ -1,0 +1,5 @@
+28 Aug 2015 13:12:19,473 INFO  ~ Starting E:\Play_WorkSpace\yabe
+28 Aug 2015 13:12:19,808 WARN  ~ You're running Play! in DEV mode
+28 Aug 2015 13:12:19,867 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+28 Aug 2015 13:13:26,389 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+28 Aug 2015 13:13:26,822 INFO  ~ Application 'Yet Another Blog Engine' is now started !
