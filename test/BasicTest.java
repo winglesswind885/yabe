@@ -9,6 +9,19 @@ public class BasicTest extends UnitTest {
 	public void setup() {
 		Fixtures.deleteDatabase();
 	}
+	
+	@Test
+	public void testLapTopGitConnection() {
+		// Create a new user and save it
+    	new User("bob@gmail.com", "secret", "Bob").save();
+    	
+    	// Retrive the user with e-mail address bob@gmail.com
+    	User bob = User.find("byEmail", "bob@gmail.com").first();
+    	
+    	//Test
+    	assertNotNull(bob);
+    	assertEquals("Bob", bob.fullname);
+	}
 
 	
     @Test
